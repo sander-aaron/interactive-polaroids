@@ -24,25 +24,26 @@ html {
 .polaroid:nth-child(1) {
   transform: rotate(-15deg);
   transition: all 250ms;
-  left: 15%;
+  left: 25%;
   bottom: 50%;
 }
 
 .polaroid:nth-child(1):hover {
   transform: rotate(0);
-  z-index: 100%;
+  z-index: 1;
 }
 
 .polaroid:nth-child(2) {
   transform: rotate(5deg);
   transition: all 250ms;
-  left: 30%;
+  left: 38%;
   bottom: 40%;
 }
 
 .polaroid:nth-child(2):hover {
   transform: rotate(0);
   transform: translateZ(100%);
+  z-index: 1;
 }
 
 .polaroid:nth-child(3) {
@@ -55,6 +56,7 @@ html {
 .polaroid:nth-child(3):hover {
   transform: rotate(0);
   transform: translateZ(0);
+  z-index: 1;
 }
 
 .polaroid > img {
