@@ -14,7 +14,7 @@ html {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
 
   position: absolute;
-
+  transition: auto;
 }
 
 .polaroid:hover {
@@ -31,6 +31,7 @@ html {
 .polaroid:nth-child(1):hover {
   transform: rotate(0);
   z-index: 1;
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 1);
 }
 
 .polaroid:nth-child(2) {
@@ -43,6 +44,7 @@ html {
 .polaroid:nth-child(2):hover {
   transform: rotate(0);
   z-index: 1;
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 1);
 }
 
 .polaroid:nth-child(3) {
@@ -55,6 +57,7 @@ html {
 .polaroid:nth-child(3):hover {
   transform: rotate(0);
   z-index: 1;
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 1);
 }
 
 .polaroid > img {
